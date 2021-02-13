@@ -12,7 +12,7 @@ Run the demo with::
 where <max_req> is the maximum number of requests you want to allow for a window lasting <window_secs> seconds.
 For example, to apply a rate limit of 1000 requests per hour, do::
 
-    $ docker run --rm -p 5000:5000 myimage 1000 3600
+    $ docker run --rm -p 5000:5000 demo 1000 3600
 
 
 The application is running at the address http://127.0.0.1:5000 on your computer.
